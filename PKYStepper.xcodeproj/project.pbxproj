@@ -33,7 +33,7 @@
 
 /* Begin PBXFileReference section */
 		4722A6751A63A76400A8B9A5 /* PKYStepper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PKYStepper.h; path = PKYStepper/PKYStepper.h; sourceTree = "<group>"; };
-		4722A6761A63A76400A8B9A5 /* PKYStepper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PKYStepper.m; path = PKYStepper/PKYStepper.m; sourceTree = "<group>"; };
+		4722A6761A63A76400A8B9A5 /* PKYStepper.m */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = sourcecode.c.objc; name = PKYStepper.m; path = PKYStepper/PKYStepper.m; sourceTree = "<group>"; tabWidth = 4; };
 		4752BC121A60B89A00A31EE5 /* PKYStepper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PKYStepper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4752BC2B1A60B89A00A31EE5 /* PKYStepperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PKYStepperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4752BC301A60B89A00A31EE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
