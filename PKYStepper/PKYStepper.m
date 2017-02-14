@@ -64,7 +64,7 @@ static const float kButtonWidth = 44.0f;
     [self addSubview:self.incrementButton];
     
     self.decrementButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    [self.decrementButton setTitle:@"-" forState:UIControlStateNormal];
+    [self.decrementButton setTitle:@"—" forState:UIControlStateNormal];
     [self.decrementButton addTarget:self action:@selector(decrementButtonTapped:) forControlEvents:UIControlEventTouchUpInside];
     [self addSubview:self.decrementButton];
     
