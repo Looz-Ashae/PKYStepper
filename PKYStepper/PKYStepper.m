@@ -74,7 +74,7 @@ static const float kButtonWidth = 44.0f;
     [self setButtonTextColor:defaultColor forState:UIControlStateNormal];
     
     [self setLabelFont:[UIFont fontWithName:@"Avernir-Roman" size:14.0f]];
-    [self setButtonFont:[UIFont fontWithName:@"Avenir-Black" size:24.0f]];
+    [self setButtonFont:[UIFont fontWithName:@"Avenir-Black" size:18.0f]];
 }
 
 
