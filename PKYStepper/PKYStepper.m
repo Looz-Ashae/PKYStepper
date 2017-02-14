@@ -60,14 +60,14 @@ static const float kButtonWidth = 44.0f;
     
     self.incrementButton = [UIButton buttonWithType:UIButtonTypeCustom];
     [self.incrementButton setTitle:@"+" forState:UIControlStateNormal];
-    self.incrementButton.showsTouchWhenHighlighted = true;
     [self.incrementButton addTarget:self action:@selector(incrementButtonTapped:) forControlEvents:UIControlEventTouchUpInside];
+    self.incrementButton.showsTouchWhenHighlighted = true;
     [self addSubview:self.incrementButton];
     
-    self.decrementButton.showsTouchWhenHighlighted = true;
     self.decrementButton = [UIButton buttonWithType:UIButtonTypeCustom];
     [self.decrementButton setTitle:@"—" forState:UIControlStateNormal];
     [self.decrementButton addTarget:self action:@selector(decrementButtonTapped:) forControlEvents:UIControlEventTouchUpInside];
+    self.decrementButton.showsTouchWhenHighlighted = true;
     [self addSubview:self.decrementButton];
     
     UIColor *defaultColor = [UIColor colorWithRed:(79/255.0) green:(161/255.0) blue:(210/255.0) alpha:1.0];
