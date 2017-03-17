@@ -87,8 +87,8 @@ static const float kButtonWidth = 44.0f;
     CGFloat height = self.bounds.size.height;
     
     self.countLabel.frame = CGRectMake(self.buttonWidth, 0, width - (self.buttonWidth * 2), height);
-    self.incrementButton.frame = CGRectMake(0, 0, self.buttonWidth, height);
-    self.decrementButton.frame = CGRectMake(width - self.buttonWidth, 0, self.buttonWidth, height);
+    self.incrementButton.frame = CGRectMake(width - self.buttonWidth, 0, self.buttonWidth, height);
+    self.decrementButton.frame = CGRectMake(0, 0, self.buttonWidth, height);
     
     self.incrementButton.hidden = (self.hidesIncrementWhenMaximum && [self isMaximum]);
     self.decrementButton.hidden = (self.hidesDecrementWhenMinimum && [self isMinimum]);
